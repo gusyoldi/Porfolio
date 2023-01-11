@@ -1,0 +1,15 @@
+.container {
+  padding: 2.5rem 2rem 3rem 2rem;
+  text-align: center;
+}
+
+.technologies {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+
+.technologies img {
+  width: 40px;
+  height: 40px;
+}

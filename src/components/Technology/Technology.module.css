@@ -1,0 +1,15 @@
+.tech {
+  background-color: var(--Cream);
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1rem;
+
+}
+
+@media (min-width: 769px) {
+ .tech {
+  width: 400px;
+ }
+
+}
+
