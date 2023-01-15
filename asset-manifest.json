@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Today-I-learned/static/css/main.6bd47f15.css",
+    "main.js": "/Today-I-learned/static/js/main.ff6b7a19.js",
+    "static/js/787.bc218889.chunk.js": "/Today-I-learned/static/js/787.bc218889.chunk.js",
+    "static/media/sax.png": "/Today-I-learned/static/media/sax.931870db5597e780b797.png",
+    "static/media/desktop-design-img.jpg": "/Today-I-learned/static/media/desktop-design-img.54bdfd534c7ffb970f13.jpg",
+    "static/media/portfolio-img.png": "/Today-I-learned/static/media/portfolio-img.5d19b5ff588c8736ac71.png",
+    "static/media/node-img.png": "/Today-I-learned/static/media/node-img.8bf3866cae1aaa24f6b4.png",
+    "static/media/GustavoYoldi-CV.pdf": "/Today-I-learned/static/media/GustavoYoldi-CV.718bc9b0ee72cf7a8263.pdf",
+    "static/media/card-img.jpg": "/Today-I-learned/static/media/card-img.cd4b19e115b8d0bedec7.jpg",
+    "static/media/ochentaNoventa.jpg": "/Today-I-learned/static/media/ochentaNoventa.f763e62970853624ef5d.jpg",
+    "index.html": "/Today-I-learned/index.html",
+    "main.6bd47f15.css.map": "/Today-I-learned/static/css/main.6bd47f15.css.map",
+    "main.ff6b7a19.js.map": "/Today-I-learned/static/js/main.ff6b7a19.js.map",
+    "787.bc218889.chunk.js.map": "/Today-I-learned/static/js/787.bc218889.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bd47f15.css",
+    "static/js/main.ff6b7a19.js"
+  ]
+}
