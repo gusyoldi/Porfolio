@@ -20,6 +20,7 @@
 .text {
   margin: 1rem;
   font-size: 1.1rem;
+  padding: 0 5px;
 }
 
 .text a {
