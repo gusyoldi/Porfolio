@@ -63,8 +63,8 @@ export default function MyProjects() {
           title="Ochenta/Noventa"
           subtitle="Landing page"
           image={OchentaNoventaImg}
-          url="https://gusyoldi.github.io/landing-OchentaNoventa"
-          code="https://github.com/gusyoldi/landing-OchentaNoventa"
+          url="https://gusyoldi.github.io/Today-I-learned/"
+          code="https://github.com/gusyoldi/Today-I-learned"
         />
       </div>
     </div>
