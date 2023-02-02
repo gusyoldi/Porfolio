@@ -1,6 +1,6 @@
 import React from 'react'
 import Styles from './Footer.module.css'
-import CV from "../../assets/CurriculumVitae/GustavoYoldi-CV.pdf";
+// import CV from "../../assets/CurriculumVitae/GustavoYoldi-CV.pdf";
 
 
 export default function Footer() {

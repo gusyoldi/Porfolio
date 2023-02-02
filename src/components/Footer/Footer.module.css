@@ -2,12 +2,22 @@
   background-color: var(--Cream);
   text-align: center;
   padding: 1rem 0;
+
+  
+}
+
+@media (min-width: 769px) {
+  .container{
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .container p {
+  margin: 16px
 }
 
 .container span {
-  text-decoration: underline;
+  font-weight: bolder;
   margin-bottom: 0.6rem;
 }

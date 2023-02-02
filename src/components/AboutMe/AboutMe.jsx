@@ -29,7 +29,7 @@ export default function AboutMe() {
         <p>
           Hice, con React, la landing page del grupo musical para eventos{" "}
           <a
-            href="https://gusyoldi.github.io/landing-OchentaNoventa"
+            href="https://ochentanoventa.com.ar"
             target="_blank"
             rel="noreferrer"
           >
@@ -45,17 +45,23 @@ export default function AboutMe() {
           >
             FrontendMentor
           </a>
-          , para practicar mis habilidades con CSS. Por otro lado, hice un
-          proyecto de backend con Node para{" "}
+          , para practicar mis habilidades con CSS. Por otro lado, para ejercitar mis skills para resolver problemas realicé varios ejercicios en {" "}
           <a
-            href="https://www.alkemy.org/faqs"
+            href="https://exercism.org/"
             target="_blank"
             rel="noreferrer"
-          >
-            Alchemy
-          </a>{" "}
-          consumiendo la API de películas de Disney y usando una base de datos
-          MySQL.{" "}
+          > Exercism.org
+          </a> en JavaScript.
+        </p>
+        <p>
+          Lo último que hice en Enero de 2023 para entrenar mis habilidades fue el curso {" "}
+          
+          <a
+            href="https://www.udemy.com/course/full-stack-crash-course/"
+            target="_blank"
+            rel="noreferrer"
+          >  Full Stack Crash Course</a>
+         {" "} en Udemy, dictado por Jonas Schmedtmann, de 12.5 horas de duración.
         </p>
         <p>
           Aprendí muchísimo en este último tiempo, pero soy consciente de que me

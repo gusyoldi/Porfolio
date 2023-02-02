@@ -1,6 +1,5 @@
 import React from "react";
 import Styles from "./Skills.module.css";
-import Technology from "../Technology/Technology";
 
 
 
@@ -8,7 +7,7 @@ export default function Skills() {
   return (
     <div className={Styles.container}>
         <h3>Tecnologías</h3>
-      <div className={Styles.technologies}>
+      <div className={Styles.main}>
       <Technology name='JavaScript'/>
       <Technology name='React'/>
       <Technology name='NodeJS'/>
@@ -23,8 +22,11 @@ export default function Skills() {
     </div>
   );
 }
-   {/* <Technology img={REACT_IMG} name="React" alt="React" />
-        <Technology img={NODE_IMG} name="Node" alt="Node" />
-        <Technology img={MYSQL_IMG} name="MySQL" alt="MySql" />
-        <Technology img={GIT_IMG} name="Git" alt="Git" />
-        <Technology img={BOOTSTRAP_IMG} name="Bootstrap" alt="Bootstrap" /> */}
+
+ function Technology({ name }) {
+  return (
+    <div className={Styles.tech}>
+      <p>{name}</p>
+    </div>
+  );
+}

@@ -1,13 +1,13 @@
 import React from 'react'
 import Styles from './MyProjects.module.css'
 import Card from '../Card/Card'
-import NodeImg from "../../assets/images/ProjectsImg/node-img.png";
 import OchentaNoventaImg from "../../assets/images/ProjectsImg/ochentaNoventa.jpg";
 import CompartiUnDatoImg from "../../assets/images/ProjectsImg/comparti-un-dato.png"
 import PortfolioImg from "../../assets/images/ProjectsImg/portfolio-img.png";
 import SocialProofImg from '../../assets/images/ProjectsImg/desktop-design-img.jpg'
 import REACT_IMG from "../../assets/images/Technologies/react.png";
 import HTML_IMG from "../../assets/images/Technologies/html.png";
+// import NodeImg from "../../assets/images/ProjectsImg/node-img.png";
 // import CSS_IMG from "../../assets/images/Technologies/css.png";
 // import JS_IMG from "../../assets/images/Technologies/js.png";
 // import NODE_IMG from "../../assets/images/Technologies/node.png";
