@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Porfolio/static/css/main.6bd47f15.css",
-    "main.js": "/Porfolio/static/js/main.28f00ab4.js",
-    "static/js/787.bc218889.chunk.js": "/Porfolio/static/js/787.bc218889.chunk.js",
-    "static/media/sax.png": "/Porfolio/static/media/sax.931870db5597e780b797.png",
-    "static/media/desktop-design-img.jpg": "/Porfolio/static/media/desktop-design-img.54bdfd534c7ffb970f13.jpg",
-    "static/media/portfolio-img.png": "/Porfolio/static/media/portfolio-img.5d19b5ff588c8736ac71.png",
-    "static/media/node-img.png": "/Porfolio/static/media/node-img.8bf3866cae1aaa24f6b4.png",
-    "static/media/GustavoYoldi-CV.pdf": "/Porfolio/static/media/GustavoYoldi-CV.718bc9b0ee72cf7a8263.pdf",
-    "static/media/card-img.jpg": "/Porfolio/static/media/card-img.cd4b19e115b8d0bedec7.jpg",
-    "static/media/ochentaNoventa.jpg": "/Porfolio/static/media/ochentaNoventa.f763e62970853624ef5d.jpg",
-    "index.html": "/Porfolio/index.html",
-    "main.6bd47f15.css.map": "/Porfolio/static/css/main.6bd47f15.css.map",
-    "main.28f00ab4.js.map": "/Porfolio/static/js/main.28f00ab4.js.map",
-    "787.bc218889.chunk.js.map": "/Porfolio/static/js/787.bc218889.chunk.js.map"
+    "main.css": "/static/css/main.c90fa381.css",
+    "main.js": "/static/js/main.8a701246.js",
+    "static/js/787.202b8111.chunk.js": "/static/js/787.202b8111.chunk.js",
+    "static/media/sax.png": "/static/media/sax.931870db5597e780b797.png",
+    "static/media/desktop-design-img.jpg": "/static/media/desktop-design-img.54bdfd534c7ffb970f13.jpg",
+    "static/media/portfolio-img.png": "/static/media/portfolio-img.5d19b5ff588c8736ac71.png",
+    "static/media/node-img.png": "/static/media/node-img.8bf3866cae1aaa24f6b4.png",
+    "static/media/comparti-un-dato.png": "/static/media/comparti-un-dato.b88aee19cf7336f41ae5.png",
+    "static/media/GustavoYoldi-CV.pdf": "/static/media/GustavoYoldi-CV.718bc9b0ee72cf7a8263.pdf",
+    "static/media/ochentaNoventa.jpg": "/static/media/ochentaNoventa.f763e62970853624ef5d.jpg",
+    "index.html": "/index.html",
+    "main.c90fa381.css.map": "/static/css/main.c90fa381.css.map",
+    "main.8a701246.js.map": "/static/js/main.8a701246.js.map",
+    "787.202b8111.chunk.js.map": "/static/js/787.202b8111.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bd47f15.css",
-    "static/js/main.28f00ab4.js"
+    "static/css/main.c90fa381.css",
+    "static/js/main.8a701246.js"
   ]
 }
