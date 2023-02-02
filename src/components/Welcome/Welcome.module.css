@@ -1,10 +1,9 @@
 .container {
-  /* height: 100vh; */
-  padding: 4rem 2rem 2rem 2rem;
   background-color: var(--Cream);
+  padding: 4rem 2rem 2rem 2rem;
+
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   text-align: center;
 }
@@ -59,13 +58,16 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation: hiddenAnimation 2.1s, typing 1.2s steps(25, end) 2.1s,
     blink-caret 0.7s step-end infinite;
-    padding-left: 1.2rem;
+  padding-left: 1.2rem;
 }
 
 .links {
   display: flex;
-  flex-direction: column;
-  
+  /* flex-direction: column; */
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  bottom: 85%;
 }
 
 .links a {
@@ -76,15 +78,26 @@
 
 .links button {
   background-color: var(--DarkCream);
-  border-radius: 9px;
+  border-radius: 80%;
   padding: 0.2rem;
   margin-bottom: 0.5rem;
+  width: 64px;
+  height: 64px;
+  border-style: dashed;
+  opacity: 0.5;
+  margin: 0 2vh;
+}
 
+@media (min-width: 769px) {
+  .links button {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 .links button:hover {
-  background-color: #8a7442;
-  color: #F2D388;
+  background-color: #ecdebc;
+  /* color: #f2d388; */
 }
 
 /* The typing effect */
@@ -131,7 +144,7 @@
     height: 220px;
   }
 }
-@media (min-width: 1024px){
+@media (min-width: 1024px) {
   /* .container{
     height: auto;
   } */

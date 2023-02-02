@@ -9,7 +9,7 @@ export default function ContactMe() {
 }
   return (
     <div className={Styles.container}>
-       <form onSubmit={handleSubmit}>
+       <form onSubmit={handleSubmit} id="contactForm">
         <label htmlFor="name">
       Nombre <span>*</span>
     </label>

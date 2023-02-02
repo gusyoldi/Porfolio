@@ -1,9 +1,14 @@
 .container {
   padding: 2.5rem 2rem 3rem 2rem;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
-.container form {
+ .container form {
+  /* margin: auto 0; */
+  /* border: 1px solid blue; */
+  width: 600px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,17 +20,18 @@
 
 .container input {
   margin-bottom: 1rem;
-  width: 300px;
+  height: 24px;
+  width: 100%;
 }
 
-form span{
+.container span{
   color: red;
 }
 
-textarea {
+.container textarea {
   padding: 0.3rem;
   margin-bottom: 0.5rem;
-  width: 300px;
+  width: 100%;
 }
 
 .container button {
@@ -37,6 +43,7 @@ textarea {
 }
 
 .container button:hover {
+  cursor: pointer;
   background-color: #8a7442;
   color: #F2D388;
 }

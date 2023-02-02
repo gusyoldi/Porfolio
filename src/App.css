@@ -10,10 +10,14 @@
   box-sizing: border-box;
 }
 
+#root {
+
+  /* max-width: 1200px; */
+  margin: 0 auto;
+}
+
 html {
   scroll-behavior: smooth;
-  /* max-width: 1200px; */
-  margin: auto;
 }
 
 body {

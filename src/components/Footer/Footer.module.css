@@ -5,26 +5,9 @@
 }
 
 .container p {
-  margin-bottom: 0.6rem;
-}
-
-.container button {
-  background-color: var(--DarkCream);
-  border-radius: 9px;
-  padding: 0.2rem;
-  margin: 0.5rem 0 0.5rem 0;
-}
-
-.container button:hover {
-  background-color: #8a7442;
-  color: #F2D388;
-}
-
-.container button a {
-text-decoration: none;
-color: var(--Black);
 }
 
 .container span {
   text-decoration: underline;
+  margin-bottom: 0.6rem;
 }

@@ -26,8 +26,8 @@ export default function Welcome() {
         </div>
         </div>
         <div className={Styles.links}>
-        <button><a href={CV} download='Gustavo Yoldi - CV'>Descargar CV ⬇</a></button>
-        <button><a href="#ContactMe">Contactame</a></button>
+        <button><a href={CV} download='Gustavo Yoldi - CV'>CV ⬇</a></button>
+        <button><a href="#contactForm">Contactame</a></button>
         </div>
     </div>
   )
