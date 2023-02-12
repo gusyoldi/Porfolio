@@ -15,7 +15,7 @@ export default function Skills() {
       <Technology name='Express'/>
       <Technology name='Bootstrap'/>
       <Technology name='Sequelize'/>
-      <Technology name='CSS'/>
+      <Technology name='Tailwind'/>
       <Technology name='MySQL'/>
       <Technology name='Git'/>
       </div>

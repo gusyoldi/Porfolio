@@ -63,23 +63,29 @@
 
 .links {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-between;
   width: 100%;
   position: fixed;
-  bottom: 25%;
+  bottom: 10%;
+  z-index: 2;
+}
+
+@media (max-width: 769px){
+  .links{
+    display: none;
+  }
 }
 
 .links a {
   text-decoration: none;
   color: var(--Black);
-  font-size: small;
 }
 
 .links button {
+  cursor: pointer;
+  font-size: small;
   background-color: var(--DarkCream);
   border-radius: 80%;
-  padding: 0.2rem;
   margin-bottom: 0.5rem;
   width: 64px;
   height: 64px;
@@ -90,8 +96,8 @@
 
 @media (min-width: 769px) {
   .links button {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
   }
 }
 

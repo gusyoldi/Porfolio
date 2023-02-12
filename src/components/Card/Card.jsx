@@ -19,16 +19,16 @@ export default function Card({ title, subtitle, image, url, code }) {
         
       </div> */}
       <div className={Styles.links}>
-        <button className={Styles.button}>
-          <a href={url} target="_blank" rel="noreferrer">
+        <a href={url} target="_blank" rel="noreferrer" >
+          <button >
             Proyecto
-          </a>
-        </button>
-        <button className={Styles.button}>
-          <a href={code} target="_blank" rel="noreferrer">
+          </button>
+        </a>
+        <a href={code} target="_blank" rel="noreferrer" >
+          <button >
             Código
-          </a>
-        </button>
+          </button>
+        </a>
       </div>
     </div>
   );

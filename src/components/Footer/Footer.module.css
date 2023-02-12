@@ -19,5 +19,6 @@
 
 .container span {
   font-weight: bolder;
+  text-decoration: underline;
   margin-bottom: 0.6rem;
 }

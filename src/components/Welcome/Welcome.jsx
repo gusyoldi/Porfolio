@@ -12,7 +12,7 @@ export default function Welcome() {
             <img src={FOTO_CV} alt='CvPhoto' />
         </div>
         <h1>Gustavo Yoldi</h1>
-        <p>En búsqueda de mi primer trabajo en IT.</p>
+        <p>Un buscador de soluciones</p>
         <div className={Styles.animations}>
         <div className={Styles.typewriterDeveloperContainer}>
             <div className={Styles.typewriterDeveloper}>
@@ -26,8 +26,8 @@ export default function Welcome() {
         </div>
         </div>
         <div className={Styles.links}>
-        <button><a href={CV} download='Gustavo Yoldi - CV'>CV ⬇</a></button>
-        <button><a href="#contactForm">Contactame</a></button>
+       <a href={CV} download='Gustavo Yoldi - CV'><button>CV ⬇</button></a>
+       <a href="#contactForm"><button>Contactame</button></a>
         </div>
     </div>
   )

@@ -34,7 +34,7 @@
   letter-spacing: 2px;
 }
 
-.container img {
+.photo img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
@@ -53,4 +53,12 @@
     text-align: start;
   }
 
+  .photo {
+    align-items: center;
+  }
+  .photo img{
+    width: 400px;
+    height: 400px;
+  }
+  
 }

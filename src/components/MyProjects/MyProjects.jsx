@@ -20,13 +20,13 @@ export default function MyProjects() {
   const usedTech = [REACT_IMG, HTML_IMG]
   return (
     <div className={Styles.container}>
-      <h3>Últimos Proyectos</h3>
+      <h3>Últimos proyectos</h3>
       <div className={Styles.cardsContainer}>
         <Card
           title="Portfolio"
           subtitle="Usted está aquí!"
           image={PortfolioImg}
-          url="https://porfolio-gustavoyoldi.netlify.app/"
+          url="https://gusyoldi.github.io/Porfolio/"
           code="https://github.com/gusyoldi/Porfolio.git"
         />
             <Card

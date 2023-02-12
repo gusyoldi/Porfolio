@@ -5,8 +5,6 @@
 }
 
  .container form {
-  /* margin: auto 0; */
-  /* border: 1px solid blue; */
   width: 600px;
 
   display: flex;
@@ -15,11 +13,12 @@
 }
 
 .container label {
-  margin-bottom: 0.25rem;
+  margin-bottom: 1rem;
 }
 
 .container input {
   margin-bottom: 1rem;
+  padding: 1rem;
   height: 24px;
   width: 100%;
 }
@@ -40,6 +39,7 @@
   padding: 0.4rem;
   margin: 0.5rem 0 0.5rem 0;
   font-size: medium;
+  width: 100%;
 }
 
 .container button:hover {
