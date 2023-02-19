@@ -10,24 +10,18 @@
   box-sizing: border-box;
 }
 
-#root {
-
-  /* max-width: 1200px; */
-  margin: 0 auto;
-}
 
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  overflow-x: hidden;
-  max-width: 100%;
+  /* padding: 2rem 2rem 2rem 2rem; */
   font-family: "Roboto", sans-serif;
-  letter-spacing: 1px;
+  /* margin: 0 auto; */
+  /* max-width: 1200px; */
+   letter-spacing: 1px;
   font-size: 16px;
-  background-color: var(--White);
-  
 }
 
 h1 {
@@ -57,7 +51,7 @@ p {
 }
 
 
-@media (min-width: 1024px){
+@media (min-width: 769px){
   h1 {
     font-weight: 700;
     /* font-size: 2rem; */

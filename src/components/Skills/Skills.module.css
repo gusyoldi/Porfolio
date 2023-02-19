@@ -1,15 +1,17 @@
-.container {
-  padding: 2.5rem 2rem 3rem 2rem;
+.section {
   text-align: center;
+  padding: 40px;
 }
 
-.main {
+.container {
   display: grid;
   grid-template-columns: auto auto;
   justify-content: center;
+  margin: 0 auto;
+  max-width: 1050px;
 }
 
-.main img {
+.container img {
   width: 40px;
   height: 40px;
 }
@@ -19,12 +21,18 @@
   border-radius: 10px;
   margin: 1rem;
   padding: 1rem;
+}
 
+.tech p {
+  margin: auto;
 }
 
 @media (min-width: 769px) {
+  .container {
+    justify-content: space-between;
+  }
  .tech {
-  width: 400px;
+  width: 300px;
  }
 
 }

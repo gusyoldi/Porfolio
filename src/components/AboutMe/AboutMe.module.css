@@ -1,15 +1,16 @@
-.container {
- 
-  padding: 2.5rem 2rem 3rem 2rem;
+.section {
   text-align: center;
+  padding: 40px;
 }
 
-.PhotoText{
+.container{
   display: flex;
   flex-direction: column;
   justify-content:space-around;
   align-content: center;
   gap: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .photo {
@@ -42,7 +43,7 @@
 }
 
 @media (min-width: 769px) {
-  .PhotoText {
+  .container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;

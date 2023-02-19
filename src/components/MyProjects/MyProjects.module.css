@@ -1,10 +1,10 @@
-.container {
-  padding: 2.5rem 2rem 3rem 2rem;
+.section {
   text-align: center;
   border-bottom: dashed 1px var(--Cream);
+  padding: 40px
 }
 
-.container h2 {
+.section h3 {
   margin-bottom: 3rem;
 }
 
@@ -12,14 +12,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
+  margin: 0 auto;
+  /* gap: 32px; */
 }
 
 @media (min-width: 769px) {
   .cardsContainer{
     display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: center;
-    gap: 48px;
+    max-width: 1000px;
+    justify-content: space-between;
+    /* gap: 48px; */
   }
 }
+
+
+
+
+
+

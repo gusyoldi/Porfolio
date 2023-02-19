@@ -4,10 +4,10 @@ import SaxImage from "./../../assets/images/sax.png";
 
 export default function AboutMe() {
 	return (
-		<div className={Styles.container}>
+		<section className={Styles.section}>
 			<h3>Sobre mí</h3>
 
-			<div className={Styles.PhotoText}>
+			<div className={Styles.container}>
 				<div className={Styles.photo}>
 					<img src={SaxImage} alt="SaxPhoto" />
 				</div>
@@ -76,17 +76,17 @@ export default function AboutMe() {
 						Tailwind CSS para replicar el mockup enviado por el diseñador.
 					</p>
 					<p>
-						EL CÓDIGO DE TODOS ESTOS PROYECTOS ESTÁ EN MI{" "}
+						El código de todos estos proyectos está en mi {" "}
 						<a
 							href="https://github.com/gusyoldi?tab=repositories"
 							target="_blank"
 							rel="noreferrer">
-							GITHUB
+							GitHub
 						</a>{" "}
-						PERSONAL.
+						personal.
 					</p>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }

@@ -1,24 +1,50 @@
-.container {
-  background-color: var(--Cream);
-  text-align: center;
-  padding: 1rem 0;
-
-  
+.section {
+	background-color: var(--Cream);
 }
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.linkeIcon {
+	font-size: 2em;
+	color: #0077b5;
+}
+
+.gitIcon{
+	font-size: 2em;
+	color: black;
+}
+.gitIcon:hover,
+.linkeIcon:hover {
+	transform: scale(110%);
+	transition: 0.5s;
+}
+
+.mailIcon {
+	font-size: 2em;
+	color: var(--Cream);
+}
+
+.mailButton  {
+	background-color: white;
+	border: none;
+	padding: 0;
+}
+
+.mailButton:hover {
+	background-color: #8a7442;
+}
+
 
 @media (min-width: 769px) {
-  .container{
-    display: flex;
-    justify-content: center;
-  }
-}
-
-.container p {
-  margin: 16px
-}
-
-.container span {
-  font-weight: bolder;
-  text-decoration: underline;
-  margin-bottom: 0.6rem;
+.mailIcon,
+.gitIcon,
+.linkeIcon {
+	font-size: 3em;
+	}
 }

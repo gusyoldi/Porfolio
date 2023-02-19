@@ -5,9 +5,9 @@ import Styles from "./Skills.module.css";
 
 export default function Skills() {
   return (
-    <div className={Styles.container}>
+    <section className={Styles.section}>
         <h3>Tecnologías</h3>
-      <div className={Styles.main}>
+      <div className={Styles.container}>
       <Technology name='JavaScript'/>
       <Technology name='React'/>
       <Technology name='NodeJS'/>
@@ -19,7 +19,7 @@ export default function Skills() {
       <Technology name='MySQL'/>
       <Technology name='Git'/>
       </div>
-    </div>
+    </section>
   );
 }
 
