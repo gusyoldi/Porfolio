@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Porfolio/static/css/main.b2490f19.css",
-    "main.js": "/Porfolio/static/js/main.b361c60f.js",
+    "main.css": "/Porfolio/static/css/main.71e2225b.css",
+    "main.js": "/Porfolio/static/js/main.bdeae332.js",
     "static/media/sax.png": "/Porfolio/static/media/sax.931870db5597e780b797.png",
     "static/media/desktop-design-img.jpg": "/Porfolio/static/media/desktop-design-img.54bdfd534c7ffb970f13.jpg",
     "static/media/portfolio-img.png": "/Porfolio/static/media/portfolio-img.5d19b5ff588c8736ac71.png",
@@ -9,11 +9,11 @@
     "static/media/GustavoYoldi-CV.pdf": "/Porfolio/static/media/GustavoYoldi-CV.8916751ad1a2e37dd84e.pdf",
     "static/media/ochentaNoventa.jpg": "/Porfolio/static/media/ochentaNoventa.f763e62970853624ef5d.jpg",
     "index.html": "/Porfolio/index.html",
-    "main.b2490f19.css.map": "/Porfolio/static/css/main.b2490f19.css.map",
-    "main.b361c60f.js.map": "/Porfolio/static/js/main.b361c60f.js.map"
+    "main.71e2225b.css.map": "/Porfolio/static/css/main.71e2225b.css.map",
+    "main.bdeae332.js.map": "/Porfolio/static/js/main.bdeae332.js.map"
   },
   "entrypoints": [
-    "static/css/main.b2490f19.css",
-    "static/js/main.b361c60f.js"
+    "static/css/main.71e2225b.css",
+    "static/js/main.bdeae332.js"
   ]
 }
