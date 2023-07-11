@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Porfolio/static/css/main.71e2225b.css",
-    "main.js": "/Porfolio/static/js/main.bdeae332.js",
+    "main.js": "/Porfolio/static/js/main.c1f9e2dc.js",
     "static/media/sax.png": "/Porfolio/static/media/sax.931870db5597e780b797.png",
+    "static/media/pig-game-img.png": "/Porfolio/static/media/pig-game-img.6b44ed9ac1b0b4f815bb.png",
     "static/media/desktop-design-img.jpg": "/Porfolio/static/media/desktop-design-img.54bdfd534c7ffb970f13.jpg",
     "static/media/portfolio-img.png": "/Porfolio/static/media/portfolio-img.5d19b5ff588c8736ac71.png",
     "static/media/comparti-un-dato.png": "/Porfolio/static/media/comparti-un-dato.b88aee19cf7336f41ae5.png",
@@ -10,10 +11,10 @@
     "static/media/ochentaNoventa.jpg": "/Porfolio/static/media/ochentaNoventa.f763e62970853624ef5d.jpg",
     "index.html": "/Porfolio/index.html",
     "main.71e2225b.css.map": "/Porfolio/static/css/main.71e2225b.css.map",
-    "main.bdeae332.js.map": "/Porfolio/static/js/main.bdeae332.js.map"
+    "main.c1f9e2dc.js.map": "/Porfolio/static/js/main.c1f9e2dc.js.map"
   },
   "entrypoints": [
     "static/css/main.71e2225b.css",
-    "static/js/main.bdeae332.js"
+    "static/js/main.c1f9e2dc.js"
   ]
 }
