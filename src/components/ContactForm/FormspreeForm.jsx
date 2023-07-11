@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useForm, ValidationError } from "@formspree/react";
+import { useForm } from "@formspree/react";
 import ReactBootstrapModal from "./FormModal";
 
 export default function FormspreeForm() {
@@ -17,17 +17,18 @@ export default function FormspreeForm() {
 		}
 	}, [state.succeeded]);
 
+
 	return (
 		<form onSubmit={handleSubmit} id="contactForm">
 			<label htmlFor="name">
 				Nombre <span>*</span>
 			</label>
-			<input id="name" type="text" name="name" />
+			<input id="name" type="text" name="name" placeholder="Tu nombre" required />
 			<label htmlFor="email">
 				Email <span>*</span>
 			</label>
-			<input id="email" type="" name="email" />
-			<ValidationError prefix="Email" field="email" errors={state.errors} />
+			<input id="email" type="email" name="email" placeholder="Ejemplo@mail.com" required />
+			{/* <ValidationError prefix="El email debe ser asi:" field="email" errors={state.errors}  /> */}
 
 			<label htmlFor="message">
 				Mensaje <span>*</span>
@@ -38,12 +39,10 @@ export default function FormspreeForm() {
 				placeholder="Escriba su mensaje..."
 				cols="30"
 				rows="10"
+				required 
 			/>
-			<ValidationError prefix="Message" field="message" errors={state.errors} />
+			{/* <ValidationError prefix="Message" field="message" errors={state.errors} /> */}
 			<ReactBootstrapModal state={state} showModal={showModal} setShowModal={setShowModal} />
-			{/* <button type="submit" disabled={state.submitting}>
-				Enviar
-			</button> */}
 		</form>
 	);
 }

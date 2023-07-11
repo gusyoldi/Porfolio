@@ -2,6 +2,7 @@ import React from "react";
 import Styles from "./MyProjects.module.css";
 import Card from "./Card/Card";
 import OchentaNoventaImg from "../../assets/images/ProjectsImg/ochentaNoventa.jpg";
+import PigGameImg from "../../assets/images/ProjectsImg/pig-game-img.png";
 import CompartiUnDatoImg from "../../assets/images/ProjectsImg/comparti-un-dato.png";
 import PortfolioImg from "../../assets/images/ProjectsImg/portfolio-img.png";
 import SocialProofImg from "../../assets/images/ProjectsImg/desktop-design-img.jpg";
@@ -41,6 +42,14 @@ export default function MyProjects() {
 					image={OchentaNoventaImg}
 					toProject="https://ochentanoventa.com.ar"
 					toGithub="https://github.com/gusyoldi/landing-OchentaNoventa"
+					usedTech={usedTech}
+				/>
+				<Card
+					title="Pig Game"
+					subtitle="Juego PvP"
+					image={PigGameImg}
+					toProject="https://pig-game-gus.netlify.app/"
+					toGithub="https://github.com/gusyoldi/pig-game"
 					usedTech={usedTech}
 				/>
 				<Card

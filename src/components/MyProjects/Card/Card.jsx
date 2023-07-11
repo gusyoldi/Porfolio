@@ -11,7 +11,7 @@ export default function Card({ title, subtitle, image, toProject, toGithub}) {
 					<h6>{subtitle}</h6>
 				</div>
 				<div className={Styles.image}>
-					<img src={image} alt="projectImg" />
+					<a href={toProject} target="_blank" rel="noreferrer"><img src={image} alt="projectImg" /></a>
 				</div>
 
 				{/* <p>Utilicé:</p>

@@ -59,4 +59,7 @@
 		width: 280px;
 		height: 320px;
 	}
+	.text {
+		font-size: 30px;
+	}
 }

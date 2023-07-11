@@ -31,13 +31,13 @@
 }
 
 .section textarea {
-  padding: 0.3rem;
+  padding: 0.6rem;
   margin-bottom: 0.5rem;
   border-radius: 10px;
   width: 100%;
 }
 
-.section button {
+form button {
   background-color: var(--Cream);
   color: black;
   border-color: black;
@@ -52,5 +52,11 @@
   cursor: pointer;
   background-color: #8a7442;
   color: #F2D388;
+}
+
+.modal {
+  background-color: #F2D388;
+  color: black;
+  border-color: black;
 }
 

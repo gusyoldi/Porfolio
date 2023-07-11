@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
+import Styles from './ContactForm.module.css'
 
 export default function ReactBootstrapModal({ state, showModal, setShowModal }) {
   const handleCloseModal = () => setShowModal(false);
@@ -20,7 +21,7 @@ export default function ReactBootstrapModal({ state, showModal, setShowModal }) 
 				</Modal.Header>
 				<Modal.Body>Gracias por contactarme!</Modal.Body>
 				<Modal.Footer>
-					<Button variant="secondary" onClick={handleCloseModal}>
+					<Button  className={Styles.modal} color="flat" onClick={handleCloseModal}>
 						Cerrar
 					</Button>
 				</Modal.Footer>

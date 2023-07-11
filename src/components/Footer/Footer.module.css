@@ -4,7 +4,7 @@
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 10px;
+	padding: 16px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -21,7 +21,7 @@
 }
 .gitIcon:hover,
 .linkeIcon:hover {
-	transform: scale(110%);
+	transform: scale(115%);
 	transition: 0.5s;
 }
 
