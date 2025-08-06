@@ -9,13 +9,6 @@ import PortfolioImg from '../../assets/images/ProjectsImg/portfolio-img.png'
 import SocialProofImg from '../../assets/images/ProjectsImg/desktop-design-img.jpg'
 import REACT_IMG from '../../assets/images/Technologies/react.png'
 import HTML_IMG from '../../assets/images/Technologies/html.png'
-// import NodeImg from "../../assets/images/ProjectsImg/node-img.png";
-// import CSS_IMG from "../../assets/images/Technologies/css.png";
-// import JS_IMG from "../../assets/images/Technologies/js.png";
-// import NODE_IMG from "../../assets/images/Technologies/node.png";
-// import MYSQL_IMG from "../../assets/images/Technologies/sql.png";
-// import GIT_IMG from "../../assets/images/Technologies/git.png";
-// import BOOTSTRAP_IMG from "../../assets/images/Technologies/git.png";
 
 export default function MyProjects() {
 	const usedTech = [REACT_IMG, HTML_IMG]
@@ -24,24 +17,17 @@ export default function MyProjects() {
 			<h3>Últimos proyectos</h3>
 			<div className={Styles.cardsContainer}>
 				<Card
-					title='Portfolio'
-					subtitle='Usted está aquí!'
-					image={PortfolioImg}
-					toProject='https://gusyoldi.github.io/Porfolio/'
-					toGithub='https://github.com/gusyoldi/Porfolio.git'
+					title='Compartí un dato'
+					subtitle='App conectada a Supabase'
+					image={CompartiUnDatoImg}
+					toProject='https://comparti-un-dato-gustavoyoldi.netlify.app/'
+					toGithub='https://github.com/gusyoldi/Today-I-learned'
 				/>
 				<Card
 					title='Liga EDEFI'
 					subtitle='Web pública'
 					image={EdefiImg}
 					toProject='https://web.edefi.com.ar/'
-				/>
-				<Card
-					title='Compartí un dato'
-					subtitle='App conectada a Supabase'
-					image={CompartiUnDatoImg}
-					toProject='https://comparti-un-dato-gustavoyoldi.netlify.app/'
-					toGithub='https://github.com/gusyoldi/Today-I-learned'
 				/>
 				<Card
 					title='Ochenta/Noventa'
