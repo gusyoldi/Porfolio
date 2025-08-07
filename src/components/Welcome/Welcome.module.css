@@ -32,6 +32,11 @@
 	margin-bottom: 3rem;
 }
 
+.text h4 {
+	font-size: 1.1rem;
+	font-weight: 500;
+}
+
 .animations {
 	display: flex;
 	flex-direction: column;

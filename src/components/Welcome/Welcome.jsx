@@ -14,30 +14,30 @@ export default function Welcome() {
 				</div>
 				<div className={Styles.text}>
 					<h1>Gustavo Yoldi</h1>
-					<p>Un buscador de soluciones</p>
+					<p>Músico y desarrollador</p>
 					<div className={Styles.animations}>
 						<div className={Styles.typewriterDeveloperContainer}>
 							<div className={Styles.typewriterDeveloper}>
-								<h4>Programador junior.</h4>
+								<h4>Resolviendo problemas</h4>
 							</div>
 						</div>
 						<div className={Styles.typewriterMusicianContainer}>
 							<div className={Styles.typewriterMusician}>
-								<h4>Músico senior.</h4>
+								<h4>con lógica y groove.</h4>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			{/* <div className={Styles.stickys}>
+			<div className={Styles.stickys}>
 				<a href={CV} download="Gustavo Yoldi - CV">
 					<button>CV ⬇</button>
 				</a>
 				<a href="#contactForm">
 					<button>Contactame</button>
 				</a>
-			</div> */}
+			</div>
 		</section>
 	);
 }
