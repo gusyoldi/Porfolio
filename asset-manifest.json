@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Porfolio/static/css/main.71e2225b.css",
-    "main.js": "/Porfolio/static/js/main.7f91dc5b.js",
+    "main.css": "/Porfolio/static/css/main.992c6ddb.css",
+    "main.js": "/Porfolio/static/js/main.3bf06921.js",
     "static/media/sax.png": "/Porfolio/static/media/sax.931870db5597e780b797.png",
     "static/media/pig-game-img.png": "/Porfolio/static/media/pig-game-img.6b44ed9ac1b0b4f815bb.png",
     "static/media/edefi-img.png": "/Porfolio/static/media/edefi-img.594be25be06bac293c5d.png",
@@ -11,11 +11,11 @@
     "static/media/GustavoYoldi-CV.pdf": "/Porfolio/static/media/GustavoYoldi-CV.8916751ad1a2e37dd84e.pdf",
     "static/media/ochentaNoventa.jpg": "/Porfolio/static/media/ochentaNoventa.f763e62970853624ef5d.jpg",
     "index.html": "/Porfolio/index.html",
-    "main.71e2225b.css.map": "/Porfolio/static/css/main.71e2225b.css.map",
-    "main.7f91dc5b.js.map": "/Porfolio/static/js/main.7f91dc5b.js.map"
+    "main.992c6ddb.css.map": "/Porfolio/static/css/main.992c6ddb.css.map",
+    "main.3bf06921.js.map": "/Porfolio/static/js/main.3bf06921.js.map"
   },
   "entrypoints": [
-    "static/css/main.71e2225b.css",
-    "static/js/main.7f91dc5b.js"
+    "static/css/main.992c6ddb.css",
+    "static/js/main.3bf06921.js"
   ]
 }
