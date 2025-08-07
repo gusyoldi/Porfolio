@@ -1,50 +1,56 @@
 .section {
-	background-color: var(--Cream);
+  background-color: var(--Cream);
 }
 .container {
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 16px;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .linkeIcon {
-	font-size: 2em;
-	color: #0077b5;
+  font-size: 2em;
+  color: #0077b5;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
 }
 
-.gitIcon{
-	font-size: 2em;
-	color: black;
+.gitIcon {
+  font-size: 2em;
+  color: black;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
 }
+
 .gitIcon:hover,
-.linkeIcon:hover {
-	transform: scale(115%);
-	transition: 0.5s;
+.linkeIcon:hover,
+.mailButton:hover {
+  transform: scale(1.15);
 }
 
 .mailIcon {
-	font-size: 2em;
-	color: var(--Cream);
+  font-size: 2em;
+  color: var(--Cream);
 }
 
-.mailButton  {
-	background-color: white;
-	border: none;
-	padding: 0;
+.mailButton {
+  transition: transform 0.3s ease-in-out, background-color 0.5s;
+  transform: scale(1);
+  background-color: white;
+  border: none;
+  padding: 0;
 }
 
 .mailButton:hover {
-	background-color: #8a7442;
+  background-color: #8a7442;
 }
 
-
 @media (min-width: 769px) {
-.mailIcon,
-.gitIcon,
-.linkeIcon {
-	font-size: 3em;
-	}
+  .mailIcon,
+  .gitIcon,
+  .linkeIcon {
+    font-size: 3em;
+  }
 }

@@ -1,7 +1,8 @@
 :root {
   --Cream: #f2d288;
   --DarkCream: #e2b457;
-  --White: #FAFAFA;
+  --White: #fafafa;
+  --ButtonHover: #e6c067;
 }
 
 * {
@@ -10,23 +11,18 @@
   box-sizing: border-box;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
 
 body {
-  /* padding: 2rem 2rem 2rem 2rem; */
-  font-family: "Roboto", sans-serif;
-  /* margin: 0 auto; */
-  /* max-width: 1200px; */
-   letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
   font-size: 16px;
 }
 
 h1 {
   font-weight: 700;
-  /* font-size: 2rem; */
 }
 
 h3 {
@@ -38,36 +34,33 @@ h3 {
 
 h5 {
   font-weight: 500;
-  /* font-size: 1.25rem; */
 }
 
- h6 {
+h6 {
   font-weight: 400;
   font-size: 1rem;
-} 
+}
 
 p {
   font-weight: 300;
 }
 
-
-@media (min-width: 769px){
+@media (min-width: 769px) {
   h1 {
     font-weight: 700;
-    /* font-size: 2rem; */
   }
-  
+
   h3 {
     font-weight: 500;
     font-size: 1.25rem;
     margin-bottom: 1.75rem;
   }
-  
-   h6 {
+
+  h6 {
     font-weight: 400;
     font-size: 0.75rem;
-  } 
-  
+  }
+
   p {
     font-weight: 300;
   }

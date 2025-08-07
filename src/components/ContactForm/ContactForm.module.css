@@ -1,5 +1,5 @@
 .section {
- padding: 40px;
+  padding: 40px;
 }
 
 .section h3 {
@@ -26,7 +26,7 @@
   width: 100%;
 }
 
-.section span{
+.section span {
   color: red;
 }
 
@@ -50,13 +50,11 @@ form button {
 
 .section button:hover {
   cursor: pointer;
-  background-color: #8a7442;
-  color: #F2D388;
+  background-color: var(--ButtonHover);
 }
 
 .modal {
-  background-color: #F2D388;
+  background-color: #f2d388;
   color: black;
   border-color: black;
 }
-

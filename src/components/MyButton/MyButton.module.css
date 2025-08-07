@@ -1,23 +1,19 @@
-
 .myButton a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
-
 .myButton button:hover {
-	background-color: #8a7442;
-	color: #f2d388;
+  background-color: var(--ButtonHover);
 }
 
 .myButton button {
-	cursor: pointer;
-	color: black;
-	background-color: var(--Cream);
-	padding: 4px 12px 4px 12px;
-	font-size: 1rem;
-	border-radius: 12px;
-	border-color: black;
-	/* margin: auto; */
-	width: 90px;
-	text-align: center;
+  cursor: pointer;
+  color: black;
+  background-color: var(--Cream);
+  padding: 4px 12px 4px 12px;
+  font-size: 1rem;
+  border-radius: 12px;
+  border-color: black;
+  width: 90px;
+  text-align: center;
 }
