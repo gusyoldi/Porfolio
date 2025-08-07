@@ -34,9 +34,9 @@ export default function Welcome() {
 				<a href={CV} download="Gustavo Yoldi - CV">
 					<button>CV ⬇</button>
 				</a>
-				<a href="#contactForm">
+				{/* <a href="#contactForm">
 					<button>Contactame</button>
-				</a>
+				</a> */}
 			</div>
 		</section>
 	);
