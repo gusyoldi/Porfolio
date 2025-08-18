@@ -3,20 +3,9 @@
   padding: 40px;
 }
 
-.container{
-  display: flex;
-  flex-direction: column;
-  justify-content:space-around;
-  align-content: center;
-  gap: 24px;
-  max-width: 1200px;
+.container {
+  max-width: 1050px;
   margin: 0 auto;
-}
-
-.photo {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 1.5rem;
 }
 
 .text {
@@ -27,7 +16,6 @@
 
 .text a {
   color: var(--DarkCream);
-  /* text-decoration: none; */
 }
 
 .text p {
@@ -35,31 +23,11 @@
   letter-spacing: 2px;
 }
 
-.photo img {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  opacity: 0.8;
-}
-
 @media (min-width: 769px) {
   .container {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
+    text-align: justify;
   }
 
   .text {
-    width: 50%;
-    text-align: start;
   }
-
-  .photo {
-    align-items: center;
-  }
-  .photo img{
-    width: 400px;
-    height: 400px;
-  }
-  
 }
