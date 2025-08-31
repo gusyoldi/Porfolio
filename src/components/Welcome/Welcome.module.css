@@ -1,163 +1,167 @@
 .section {
-	background-color: var(--Cream);
-	padding: 40px;
+  background-color: var(--Cream);
+  padding: 40px;
 }
 
 .container {
-	max-width: 1200px;
-	margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .image {
-	text-align: center;
+  text-align: center;
 }
 
 .image img {
-	border-radius: 50%;
-	border: 1px solid var(--Cream);
-	width: 230px;
-	margin-bottom: 1.75rem;
+  border-radius: 50%;
+  border: 1px solid var(--Cream);
+  width: 230px;
+  margin-bottom: 1.75rem;
 }
 
 .text {
-	text-align: center;
+  text-align: center;
 }
 
 .text h1 {
-	margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .text p {
-	font-size: 1rem;
-	margin-bottom: 3rem;
+  font-size: 1rem;
+  margin-bottom: 3rem;
 }
 
 .text h4 {
-	font-size: 1.1rem;
-	font-weight: 500;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .animations {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .typewriterDevelopersection {
-	width: fit-content;
-	margin-bottom: 0.4rem;
+  width: fit-content;
+  margin-bottom: 0.4rem;
 }
 
 .typewriterMusiciansection {
-	width: fit-content;
+  width: fit-content;
 }
 
 .typewriterDeveloper h4 {
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: 0.15em solid black; /* The typwriter cursor */
-	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	animation: typing 1.2s steps(25, end), blink-caret 0.7s step-end 2s,
-		hide-blink-caret 3600s step-end 2.3s;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: typing 1.2s steps(25, end), blink-caret 0.7s step-end 2s,
+    hide-blink-caret 3600s step-end 2.3s;
 }
 
 .typewriterMusician h4 {
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: 0.15em solid black; /* The typwriter cursor */
-	white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-	animation: hiddenAnimation 2.1s, typing 1.2s steps(25, end) 2.1s,
-		blink-caret 0.7s step-end infinite;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: hiddenAnimation 2.1s, typing 1.2s steps(25, end) 2.1s,
+    blink-caret 0.7s step-end infinite;
 }
 
 .stickys {
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	position: fixed;
-	bottom: 10%;
-	z-index: 2;
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  bottom: 12%;
+  z-index: 2;
 }
 
 .stickys a {
-	text-decoration: none;
-	color: var(--Black);
+  text-decoration: none;
+  color: var(--Black);
 }
 
 .stickys button {
-	cursor: pointer;
-	font-size: small;
-	background-color: var(--DarkCream);
-	border-radius: 80%;
-	margin-bottom: 0.5rem;
-	width: 64px;
-	height: 64px;
-	border-style: dashed;
-	opacity: 0.5;
-	margin: 0 2vh;
+  cursor: pointer;
+  font-size: small;
+  background-color: var(--DarkCream);
+  border-radius: 80%;
+  margin-bottom: 0.5rem;
+  width: 64px;
+  height: 64px;
+  border-style: dashed;
+  opacity: 0.5;
+  margin: 0 2vh;
 }
 
 .stickys button:hover {
-	background-color: #ecdebc;
-	/* color: #f2d388; */
+  background-color: #ecdebc;
+  /* color: #f2d388; */
 }
 
 /* Media queries */
 
 @media (min-width: 769px) {
-	.container {
-		display: flex;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-		gap: 64px;
-	}
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+  }
 
-	.text {
-		font-size: 1.4rem;
-	}
+  .text {
+    font-size: 1.4rem;
+  }
 
-	.image img {
-		width: 250px;
-		/* height: 300px; */
-	}
+  .image img {
+    width: 250px;
+    /* height: 300px; */
+  }
+
+  .stickys {
+    display: flex;
+  }
 }
 
 /* The typing effect */
 @keyframes hiddenAnimation {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 0;
-	}
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0;
+  }
 }
 
 /* The typing effect */
 @keyframes typing {
-	from {
-		width: 0;
-	}
-	to {
-		width: 100%;
-	}
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-	from,
-	to {
-		border-color: transparent;
-	}
-	50% {
-		border-color: black;
-	}
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
 }
 
 @keyframes hide-blink-caret {
-	from,
-	to {
-		border: 0;
-	}
-	/* 50% { border-color: black; } */
+  from,
+  to {
+    border: 0;
+  }
+  /* 50% { border-color: black; } */
 }
