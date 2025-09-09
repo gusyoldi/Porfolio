@@ -43,7 +43,7 @@ export default function MyProjects() {
           usedTech={usedTech}
         />
         <Card
-          title="Pig Game"
+          title="Todo o nada"
           subtitle="Juego PvP"
           image={PigGameImg}
           toProject="https://pig-game-gus.netlify.app/"
