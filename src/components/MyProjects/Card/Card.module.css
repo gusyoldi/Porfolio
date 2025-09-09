@@ -1,65 +1,63 @@
 .cardComponent {
-	border: 1px solid #bbb;
-	border-radius: 10%;
-	text-align: center;
-	margin-bottom: 2rem;
-	width: 220px;
-	height: 320px;
+  border: 1px solid #bbb;
+  border-radius: 10%;
+  text-align: center;
+  margin-bottom: 2rem;
+  width: 220px;
+  height: 320px;
 }
 
 .container {
-	max-width: 400px;
-	padding: 1rem;
+  max-width: 400px;
+  padding: 1rem;
 }
 
-
 .text {
-	font-size: 24px;
+  font-size: 24px;
 }
 
 .text h5 {
-	color: #8a7442;
-	font-weight: normal;
-	font-size: 0.75em;
-	margin-bottom: 0.75rem;
+  color: #8a7442;
+  font-weight: normal;
+  font-size: 0.75em;
+  margin-bottom: 0.75rem;
 }
 
 .text h6 {
-	color: #8a7442;
-	font-weight: lighter;
-	font-size: 0.50em;
-	opacity: 0.9;
-	margin-bottom: 1.25rem;
+  color: #8a7442;
+  font-weight: lighter;
+  font-size: 0.5em;
+  opacity: 0.9;
+  margin-bottom: 1.25rem;
 }
 
 .image img {
-	filter: grayscale(1);
-	width: 150px;
-	height: 150px;
-	border-radius: 2rem;
-	margin-bottom: 1rem;
+  filter: grayscale(1);
+  width: 150px;
+  height: 150px;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
 }
 
 .image img:hover {
-	filter: grayscale(0);
+  filter: grayscale(0);
 }
 
 .buttons {
-	display: flex;
-	justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .btn {
-	background: #000;;
+  background: #000;
 }
-
 
 @media (min-width: 992px) {
   .cardComponent {
-		width: 280px;
-		height: 320px;
-	}
-	.text {
-		font-size: 30px;
-	}
+    width: 280px;
+    height: 320px;
+  }
+  .text {
+    font-size: 30px;
+  }
 }
