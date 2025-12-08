@@ -1,12 +1,12 @@
-.myButton a {
+.Button a {
   text-decoration: none;
 }
 
-.myButton button:hover {
+.Button button:hover {
   background-color: var(--ButtonHover);
 }
 
-.myButton button {
+.Button button {
   cursor: pointer;
   color: black;
   background-color: var(--Cream);
