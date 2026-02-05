@@ -8,27 +8,37 @@ const Detail = ({ projectId, detailRef }) => {
 
   useEffect(() => {
     detailRef.current?.scrollIntoView({ behavior: 'smooth' })
-  }, [projectId])
+  }, [projectId, detailRef])
 
   return (
-    <div ref={detailRef}>
+    <section ref={detailRef} className={Styles.container}>
       <h3>Descripción del proyecto:</h3>
 
-      <div className={Styles.container}>
+      <article className={Styles.article}>
         <Card {...project} />
 
-        <p>{project?.description}</p>
+        <div className={Styles.info}>
+          <p className={Styles.description}>{project?.description}</p>
 
-        <div className={Styles.techImg}>
-          <p>Usé:</p>
-          <span>
-            {project.usedTech.map((img) => (
+          <div className={Styles.techs}>
+            <span>Core Techs:</span>
+
+            {project.coreTechs.map((img) => (
               <img src={img} alt={img} key={img} height={20} width={20} />
             ))}
-          </span>
+          </div>
+          <div className={Styles.techs}>
+            <span>Otras:</span>
+
+            {!project.otherTechs
+              ? '-'
+              : project.otherTechs.map((img) => (
+                  <img src={img} alt={img} key={img} height={20} width={20} />
+                ))}
+          </div>
         </div>
-      </div>
-    </div>
+      </article>
+    </section>
   )
 }
 

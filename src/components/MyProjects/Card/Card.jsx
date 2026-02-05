@@ -1,7 +1,19 @@
 import Button from '../../Button/Button'
 import Styles from './Card.module.css'
 
-export default function Card({ title, subtitle, image, toProject, toGithub }) {
+export default function Card({
+  id,
+  title,
+  subtitle,
+  image,
+  toProject,
+  toGithub,
+  onOpenedDetail,
+}) {
+  function handleClickImage() {
+    onOpenedDetail?.(id)
+  }
+
   return (
     <div className={Styles.cardComponent}>
       <div className={Styles.container}>
@@ -11,9 +23,9 @@ export default function Card({ title, subtitle, image, toProject, toGithub }) {
         </div>
 
         <div className={Styles.image}>
-          <a href={toProject} target="_blank" rel="noreferrer">
+          <div onClick={handleClickImage}>
             <img src={image} alt="projectImg" />
-          </a>
+          </div>
         </div>
 
         <div className={Styles.buttons}>
