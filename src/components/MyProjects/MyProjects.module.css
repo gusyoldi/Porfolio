@@ -1,6 +1,6 @@
 .section {
   text-align: center;
-  padding: 40px
+  padding: 40px;
 }
 
 .section h3 {
@@ -12,21 +12,14 @@
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
-  /* gap: 32px; */
 }
 
 @media (min-width: 769px) {
-  .cardsContainer{
+  .cardsContainer {
     display: grid;
+    align-items: start;
     grid-template-columns: auto auto auto;
     max-width: 1000px;
     justify-content: space-between;
-    /* gap: 48px; */
   }
 }
-
-
-
-
-
-
